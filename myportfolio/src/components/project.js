@@ -4,13 +4,15 @@ import Footer from './footer';
 import Navigation from './navigation';
 
 function ProjectOfMe() {
-
-
-
     return(
+
+<div> < Navigation/>, <Header/>, 
+
+
 <div>somehing
-<p>somethinksidhskjdnkusijds </p>
-<div Header></div>
+<p>somethinksidhskjdnkusijds </p></div>
+
+<Footer/>
 </div>
     )
 }
