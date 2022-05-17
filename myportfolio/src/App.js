@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Project from "./components/project";
+import Main from "./components/main";
 
 function App() {
   return (
     <div>
-      <Project/>
+      <Main/>
     </div>
   );
 }
