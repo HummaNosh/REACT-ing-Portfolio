@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modals from './navmodals';
-import '../Nav.css'
+import '../css/Nav.css'
 
 function Navbar() {
 <Modals/>

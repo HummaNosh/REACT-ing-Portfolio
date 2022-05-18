@@ -1,0 +1,353 @@
+h3,
+h4 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 10px;
+  font-size: 4rem;
+  color: black;
+}
+
+
+/* Laptop pic */
+.backgroundlaptop img {
+  width: 100%;
+  opacity: 0.5;
+  margin: auto;
+}
+
+#logo {
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+/* Nav bar */
+.nav-tabs li a {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px;
+  letter-spacing: 4px;
+  opacity: 0.9;
+  cursor: pointer;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+}
+
+.navbar-toggle {
+  float: left !important;
+}
+.navbar li a {
+  color: white;
+}
+.navbar .navbar-brand {
+  color: white;
+}
+.navbar-nav li a:hover {
+  color: #fff;
+}
+.navbar-nav li.active a {
+  color: #fff;
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: white;
+}
+.open .dropdown-toggle {
+  color: #fff;
+  background-color: #555;
+}
+.dropdown-menu li a {
+  color: #000;
+}
+.dropdown-menu li a:hover {
+  background-color: goldenrod;
+}
+.navbar-default .navbar-nav>li>a{
+color:white;
+}
+/* Most sections */
+
+.hero {
+  background-image: url("./woman-using-laptop-1100x733.jpg");
+  height: 80rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Welcome text */
+.bg-1 #welcome {
+  font-size: 60px;
+  max-width: 80%;
+  color: #1413138c;
+  text-shadow: 5px 2px 5px goldenrod;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.bg-1 #Iam {
+  font-family: "Courier New", Courier, monospace;
+  color: #1413138c;
+  font-size: 3rem;
+  font-style: italic;
+  text-shadow: 2px 2px 5px goldenrod;
+  padding: 20px;
+}
+
+/* Recent projects text and boxes */
+.bg-2 {
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  color: black;
+}
+.bg-2 h3 {
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+img {
+  background-color: transparent;
+}
+.thumbnail:hover {
+  background-color: white;
+}  
+.thumbnail {
+  padding: 0;
+  border: none;
+  border-radius: 2rem;
+  height: 400px;
+  box-shadow: 5px 5px 5px black;
+  background-color: #5d4a1f;
+}
+
+#thumbPic {
+border: solid black;
+  padding: 2rem;
+  height: auto;
+  height: 250px;
+  width: 100%;
+}
+
+#thumbPic2 {
+    padding: 2rem;
+    height: auto;
+    height: 250px;
+    width: 100%;
+  }
+.thumbnail:hover {
+  box-shadow-hover: #5d4a1f;
+}
+
+.thumbnail .projectName {
+  font-size: 2rem;
+}
+
+.thumbnail p {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: black;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #5e5e5e;
+  color: #f1f1f1;
+  border-radius: 3rem;
+  transition: 0.2s;
+}
+.btn:hover,
+.btn:focus {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Check out more projects */
+.btn2 {
+  padding: 10px 20px;
+  background-color: #5e5e5e;
+  color: white;
+  transition: 0.2s;
+  font-weight: bold;
+  border-radius: 5rem;
+}
+.btn2:hover,
+.btn2:focus {
+  border: 1px solid black;
+  background-color: white;
+  color: white;
+}
+
+/* Modal theme */
+.modal-header {
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+}
+
+h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: 5px 5px 5px black;
+}
+
+.header {
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+.modal-header,
+.modal-body {
+  padding: 40px 30px;
+}
+
+.modal-body .modText {
+  color: black;
+  font-style: italic;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(
+    90deg,
+    rgba(43, 43, 43, 1) 40%,
+    rgba(43, 43, 43, 1) 50%,
+    rgba(226, 220, 220, 0.8606793059020483) 93%
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  padding: 32px;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* about me pic in modal*/
+#funnyPic {
+  width: 54rem;
+  height: 40rem;
+}
+
+#avatar {
+  padding-right: 5rem;
+}
+@media (max-width: 650px) {
+  #logo {
+    margin-top: 5rem;
+  }
+  #welcome {
+    font-size: 0;
+  }
+
+  p #Iam {
+    font-size: 10rem;
+    width: 50%;
+    padding: 0;
+    margin-right: auto;
+  }
+
+  .thumbnail {
+    height: fit-content;
+    justify-content: center;
+  }
+
+  .btn2 {
+    margin-left: 6rem;
+  }
+
+  .navbar header {
+    width: 100%;
+  }
+
+  .container-fluid {
+    width: 100%;
+  }
+
+  .navbar-collapse {
+    color: white;
+    width: 20rem;
+  }
+
+  h3 {
+    font-size: x-large;
+  }
+  .carousel-caption {
+    font-size: 10rem;
+  }
+
+  .bg-1 {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  #AboutMe {
+    width: 70rem;
+  }
+}
+@viewport {
+  width: device-width;
+  zoom: 0;
+  min-zoom: 0.4;
+  max-zoom: 2;
+  user-zoom: fixed;
+}

@@ -1,13 +1,24 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Main from "./components/main";
+import React, { useState } from 'react';
+import Navbar from './components/navigation';
+import Header from './components/header';
+import Footer from './components/footer';
+// import Projects from './components/project';
+// import moreProjects from './components/moreProjects';
+import Project from './components/projects';
+import Projects from './components/project'
 
-function App() {
-  return (
-    <div>
-      <Main/>
-    </div>
-  );
+function Main() {
+    return(
+<div> <Navbar/>
+<Header/>
+
+<Project/>
+<Projects/>
+    <Footer/>
+  </div>
+)
 }
 
-export default App;
+export default Main;

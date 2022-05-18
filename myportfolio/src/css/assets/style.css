@@ -1,0 +1,119 @@
+body {
+  background-image: url("./Really-Cool-Desktop-Backgrounds-768x480.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#Imcool {
+  font-size: 2rem;
+
+  align-items: center;
+  background-color: red;
+  text-align: center;
+  position: relative;
+  animation-name: welcome;
+  animation-duration: 4s;
+  animation-direction: reverse;
+  animation-iteration-count: 2;
+}
+@keyframes welcome {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+}
+.card-body {
+  background-color: transparent;
+}
+
+.card-body :hover {
+  -ms-zoom-animation: initial;
+}
+
+article {
+  background-color: pink;
+}
+
+.card {
+  width: 25rem;
+  height: 40rem;
+}
+
+h3 {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-wrap: wrap;
+  width: 20rem;
+}
+
+.myDIV {
+  overflow: hidden;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 0;
+}
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+/* .thumbPic {
+  position: relative;
+  width: 360px;
+  max-width: 100%;
+}
+.thumbPic img.image-hover {
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+object-fit: contain;
+opacity: 0;
+transition: opacity .2s;
+}
+.thumbPic:hover img.image-hover {
+opacity: 1;
+} */
