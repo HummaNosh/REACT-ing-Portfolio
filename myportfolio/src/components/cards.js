@@ -1,24 +1,28 @@
 
  import React from "react";
-
+import Modal from "./modal"
 const Box = (props) => {
     return(
 
- <div id="projects" class="bg-2">
+ <div id="projects" class="bg-2 thumbnail">
  <div class="thumbnail">
-     <h1 class="text-center">Projects</h1>
+     <h1 class ="text-center">Projects</h1>
+
  <ul class >
-     {props.cards.map(boxes => (
+     {props.projectData.map(boxes => (
         <div class="col-sm-4">
         <div class="thumbnail">
-        <li className="list-group-item" key={boxes.id}>
+        <li className="list-group-item thumbnail" key={boxes.id}>
           {boxes.name}
           {boxes.image}
           {boxes.date}
           {boxes.info}
+
       
         </li>
-        </div> </div>
+        </div> 
+        </div>
+       
       ))}
  </ul>
    
@@ -26,7 +30,6 @@ const Box = (props) => {
 </div>    
 
 )}
-
 
 export default Box;
 

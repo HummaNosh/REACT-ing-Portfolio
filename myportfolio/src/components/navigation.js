@@ -26,7 +26,7 @@ function Navbar() {
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#mainPage">HOME</a></li>
-            <li><a data-toggle="modal" data-target="#AboutMe" >ABOUT ME</a></li>
+            <li><a href="#AboutMe" >ABOUT ME</a></li>
             <li><a href="#projects">RECENT PROJECTS</a></li>
             <li><a href="#more">MORE</a></li>
             <li class="dropdown">

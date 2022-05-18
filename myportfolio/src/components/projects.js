@@ -16,27 +16,30 @@ import pen from "../css/assets/pen-fill.svg"
 import profile from "../css/assets/profilefile-earmark-person-fill.svg"
 import cobra from "../css/assets/cobrafilm.svg"
 import door from "../css/assets/preworkdoor-open-fill.svg"
+import css from "../css/project.css"
+
 
 const Projects = () => {
-    const cards = [
+    const projectData = [
         {
           id: 1,
-          image: <img src={heart} alt="Project 1 web page"/>,
+          image: <img id="thumbPic2" src={heart} alt="Project 1 web page"/>,
           name:  <p class="projectName">
           <strong> Weight A Minute- Project</strong>
         </p>,
         date: <p>Completed on 16th April 2022</p>,
-        info: <button class="btn" data-toggle="modal" data-target="#WAM">
+        info: <button class="btn text-center" data-toggle="collapse" data-target="#WAM">
         More Info
+        
       </button>,
+
         },
         {
           id: 2,
-          name:  <p class="projectName">
-          <strong> Weight A Minute- Project</strong>
-        </p>,
-        date: <p>Completed on 16th April 2022</p>,
-        info: <button class="btn" data-toggle="modal" data-target="#WAM">
+          image: <img id="thumbPic2" src={heart} alt="Project 1 web page"/>,
+          name:  <p class="projectName"> <strong> Social Media Network</strong></p>,
+        date: <p>Completed on 16th May 2022</p>,
+        info: <button class="btn" data-toggle="modal" data-target="#social">
         More Info
       </button>,
        
@@ -215,10 +218,7 @@ const Projects = () => {
 
     return (
         <div>
-            <div className="sub-projects">
-            <h2>Projects</h2>
-        </div>
-          <Cards cards={cards}/>
+          <Cards projectData={projectData}/>
         </div>
     )
 }
