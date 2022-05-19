@@ -143,6 +143,7 @@ color:white;
   text-shadow: 5px 5px 5px black;
 }
 
+
 img {
   background-color: transparent;
 }
@@ -155,6 +156,7 @@ img {
   border-radius: 2rem;
   box-shadow: 5px 5px 5px black;
   background-color: #5d4a1f;
+  justify-content: center;
 }
 
 #thumbPic {

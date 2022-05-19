@@ -1,0 +1,26 @@
+.about{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+  }
+
+  .aboutthumbnail {
+    padding: 0;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px black;
+    background-color: #5d4a1f;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .me {
+    font-size: 60px;
+    max-width: 80%;
+    color: #1413138c;
+    text-shadow: 5px 2px 5px goldenrod;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
