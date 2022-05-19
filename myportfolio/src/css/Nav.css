@@ -1,3 +1,10 @@
+body {
+  /* background-image: url("./css/assets/woman-using-laptop-1100x733.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
 h3,
 h4 {
   margin: 10px 0 30px 0;

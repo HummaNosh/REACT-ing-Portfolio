@@ -1,12 +1,14 @@
 
  import React from "react";
-import Modal from "./modal"
+import Modal from "./modal";
+import box from "../css/box.css";
+
 const Box = (props) => {
     return(
 
  <div id="projects" class="bg-2 thumbnail">
  <div class="thumbnail">
-     <h1 class ="text-center">Projects</h1>
+     <h1 class ="text-center Proj">Projects</h1>
 
  <ul class >
      {props.projectData.map(boxes => (

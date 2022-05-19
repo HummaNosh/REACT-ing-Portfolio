@@ -1,3 +1,5 @@
+
+
 .about{
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
@@ -10,14 +12,28 @@
     border: none;
     border-radius: 2rem;
     box-shadow: 5px 5px 5px black;
-    background-color: #5d4a1f;
+    background: radial-gradient(
+    ellipse farthest-corner at right bottom,
+    #fedb37 0%,
+    #fdb931 8%,
+    #9f7928 30%,
+    #8a6e2f 40%,
+    transparent 80%
+  ),
+  radial-gradient(
+    ellipse farthest-corner at left top,
+    #ffffff 0%,
+    #ffffac 8%,
+    #d1b464 25%,
+    #5d4a1f 62.5%,
+    #5d4a1f 100%
+  );
     justify-content: center;
     text-align: center;
   }
   
   .me {
     font-size: 60px;
-    max-width: 80%;
     color: #1413138c;
     text-shadow: 5px 2px 5px goldenrod;
     display: flex;
