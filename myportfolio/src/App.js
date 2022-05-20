@@ -5,13 +5,9 @@ import React, { useState } from 'react';
 import Navbar from './components/navigation';
 import Header from './components/header';
 import Footer from './components/footer';
-// import Projects from './components/project';
-// import moreProjects from './components/moreProjects';
-import Project from './components/projects';
-// import Projects from './components/project'
-// import Modal from './components/modal';
+import Projects from './components/projects';
 import AboutME from "./components/aboutme"
-
+import Contact from "./components/contact"
 
 function Main() {
     return(
@@ -19,7 +15,9 @@ function Main() {
   <Navbar/>
 <Header/>
 <AboutME/>
-<Project/>
+<Projects/>
+<Contact/>
+
     <Footer/>
 
   </div>

@@ -28,12 +28,10 @@ function Navbar() {
             <li><a href="#mainPage">HOME</a></li>
             <li><a href="#AboutMe" >ABOUT ME</a></li>
             <li><a href="#projects">RECENT PROJECTS</a></li>
-            <li><a href="#more">MORE</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown"
                 >CONTACT ME <span class="caret"></span
               ></a>
-
               <ul class="dropdown-menu">
                 <li><a data-toggle="modal" data-target="#Linked" >Linkedin</a></li>
                 <li><a data-toggle="modal" data-target="#Git" >GitHub</a></li>

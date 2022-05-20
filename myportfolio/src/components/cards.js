@@ -19,8 +19,6 @@ const Box = (props) => {
           {boxes.image}
           {boxes.date}
           {boxes.info}
-
-      
         </li>
         </div> 
         </div>

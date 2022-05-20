@@ -3,8 +3,12 @@
 .about{
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
-    color: black;
     font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    color: #1413138c;
+    font-style: italic;
+    text-shadow: 2px 2px 5px goldenrod;
+    padding: 20px;
   }
 
   .aboutthumbnail {
