@@ -1,6 +1,6 @@
 import React from "react";
 import aboutcss from '../css/about.css'
-
+import me from "../css/assets/me.png"
 function AboutME() {
     return(
         <div id="AboutMe" class="aboutthumbnail">
@@ -19,8 +19,8 @@ function AboutME() {
               <p class="about"> I love working in a collaborative environment, I have worked on a team of 5-6 members whom each work together in order to create quality projects. </p>
               
               <p class="about"> I am very excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.
-              </p>
-           <img id="funnyPic"src="../assets/pepsi.jpg" alt="funny coders background"/>
+              </p>g
+           <img id="funnyPic"src={me} alt="funny coders background"/>
            
           </div>
     )

@@ -24,24 +24,4 @@ function Main() {
 )
 }
 
-
-
-// const App = () => {
- 
-//   const [isOpen, setIsOpen] = useState(false);
-//   return (
-
-//        <div>
-
-//       <button className={styles.primaryBtn} onClick={() => setIsOpen(true)}>
-//         Open Modal
-//       </button>
-//       {isOpen && <Modal setIsOpen={setIsOpen} />}
-   
-//     </div>
-//   );
-// };
-
-// export  {App};
-
 export  default Main;

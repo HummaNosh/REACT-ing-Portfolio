@@ -16,6 +16,15 @@ body {
     animation-direction: reverse;
     animation-iteration-count: 2;
   }
+.projectName{
+  text-align: center;
+}
+  .links{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    list-style: none;
+  }
   @keyframes welcome {
     0% {
       background-color: red;

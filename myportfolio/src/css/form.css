@@ -3,5 +3,10 @@
 display: inline-block;
 font-size: 20px;
 padding: 20px;
-text-align: center
+text-align: center;
+font-size: 60px;
+color: #1413138c;
+text-shadow: 5px 2px 5px goldenrod;
+justify-content:center;
+
 }

@@ -27,22 +27,17 @@ const Projects = () => {
           name:  <p class="projectName">
           <strong> Weight A Minute- Project</strong>
         </p>,
-        date: <p>Completed on 16th April 2022</p>,
-        info: <button class="btn text-center" data-toggle="collapse" data-target="#WAM">
-        More Info
-        
-      </button>,
-
+        date: <p class ="links">Completed on 16th April 2022</p>,
+        github: <li class ="links"> <a href="https://github.com/HummaNosh/Weight-A-Minute#readme" target="_blank"> GITHUB REPOSITORY</a></li>,
+        link: <li class ="links"><a href="https://whispering-caverns-47180.herokuapp.com/" target="_blank"> DEPLOYED APPLICATION</a></li>,
         },
         {
           id: 2,
-          image: <img id="thumbPic2" src={heart} alt="Project 1 web page"/>,
+          image: <img id="thumbPic2" src={pencil} alt="Project 1 web page"/>,
           name:  <p class="projectName"> <strong> Social Media Network</strong></p>,
-        date: <p>Completed on 16th May 2022</p>,
-        info: <button class="btn" data-toggle="modal" data-target="#social">
-        More Info
-      </button>,
-       
+        date: <p class ="links">Completed on 16th May 2022</p>,
+        github: <li class ="links"> <a href="https://github.com/HummaNosh/My-Social-Media-Network#readme" target="_blank"> GITHUB REPOSITORY</a></li>,
+        link: <li class ="links"><a href="https://drive.google.com/file/d/1gx0iUZHIihMM0tJMiJOAiX17yJzK6GYI/view" target="_blank"> WALKTHROUGH </a></li>,
         },
         {
           id: 3,
@@ -53,10 +48,9 @@ const Projects = () => {
         src={cart}
         alt="A screenshot of my Ecommerce site"
       />,
-        date: <p>Completed on 16th April 2022</p>,
-        info:  <button class="btn" data-toggle="modal" data-target="#ECOM">
-        More Info
-      </button>, 
+        date: <p class ="links">Completed on 16th April 2022</p>,
+        github: <li class ="links"> <a href="https://github.com/HummaNosh/E-Commerce-site-ORM#readme" target="_blank"> GITHUB REPOSITORY</a></li>,
+        link: <li class ="links"><a href="https://drive.google.com/file/d/1WFjyd1p1qBcm8rfpvy30c0poxRXNC9uj/view?usp=sharing" target="_blank"> DEPLOYED APPLICATION</a></li>,
         },
         {
           id: 4,
@@ -67,10 +61,9 @@ const Projects = () => {
         src={team}
         alt="A icon of a team"
       />,
-        date: <p>Completed on 06 March 2022</p>,
-        info:  <button class="btn" data-toggle="modal" data-target="#GEN">
-        More Info
-      </button>, 
+        date: <p class ="links">Completed on 06 March 2022</p>,
+        github: <li class ="links"> <a href="https://github.com/HummaNosh/Generate-Your-Teams-Profile#readme" target="_blank"> GITHUB REPOSITORY</a></li>,
+        link: <li class ="links"><a href="https://drive.google.com/file/d/1v669bt8LgSFKJeOTvFzfspuGsb2lTaHT/view" target="_blank"> DEPLOYED APPLICATION</a></li>,
         },
         {
           id: 5,
@@ -79,10 +72,9 @@ const Projects = () => {
         src={note}
         alt="An icon of a note book"
       />,
-        date:<p>Completed on 13 March 2022</p>,
-        info:  <button class="btn" data-toggle="modal" data-target="#Note">
-        More Info
-      </button>, 
+        date:<p class ="links">Completed on 13 March 2022</p>,
+        github: <li class ="links"> <a href="https://github.com/HummaNosh/My-Note-Taker" target="_blank"> GITHUB REPOSITORY</a></li>,
+        link: <li class ="links"><a href="https://fierce-everglades-34302.herokuapp.com/" target="_blank"> DEPLOYED APPLICATION</a></li>,
         },
         {
           id: 6,
@@ -91,10 +83,9 @@ const Projects = () => {
         src={people}
         alt="An icon of people"
       />,
-        date:<p>Completed on 21 March 2022</p>, 
-        info:  <button class="btn" data-toggle="modal" data-target="#Track">
-        More Info
-      </button>,
+        date:<p class ="links">Completed on 21 March 2022</p>, 
+        github: <li class ="links"> <a href="https://github.com/HummaNosh/Track-Your-Employee#readme" target="_blank"> GITHUB REPOSITORY</a></li>,
+        link: <li class ="links"><a href="https://drive.google.com/file/d/1M9omgh6OTrLHLqoJsvYMLFFXB3DhF5a7/view" target="_blank"> DEPLOYED APPLICATION</a></li>,
         },
         {
           id: 7,
@@ -105,10 +96,9 @@ const Projects = () => {
         src={basket}
         alt="An icon of a food basket"
       />,
-        date: <p>Completed on 12 February 2022</p>, 
-        info:   <button class="btn" data-toggle="modal" data-target="#ACHA">
-        More Info
-      </button>,
+        date: <p class ="links">Completed on 12 February 2022</p>, 
+        github: <li class ="links"> <a href="https://github.com/HummaNosh/AHA-5-Food-#readme" target="_blank"> GITHUB REPOSITORY</a></li>,
+        link: <li class ="links"><a href="https://hummanosh.github.io/AHA-5-Food-/" target="_blank"> DEPLOYED APPLICATION</a></li>,
         },
         {
           id: 8,
@@ -117,10 +107,9 @@ const Projects = () => {
         src={weather}
         alt="An icon of a cloud"
       />,
-        date:  <p>Completed on 30 January 2022</p>, 
-        info:   <button class="btn" data-toggle="modal" data-target="#Weather">
-        More Info
-      </button>,
+        date:  <p class ="links">Completed on 30 January 2022</p>, 
+        github: <li class ="links"> <a href="https://github.com/HummaNosh/MyWeatherApp#readme" target="_blank"> GITHUB REPOSITORY</a></li>,
+        link: <li class ="links"><a href="https://hummanosh.github.io/MyWeatherApp/" target="_blank"> DEPLOYED APPLICATION</a></li>,
         },
         {
           id: 9,
@@ -129,10 +118,9 @@ const Projects = () => {
         src={checklist}
         alt="An icon of a checklist planner"
               />,
-        date:  <p>Completed on 30 January 2022</p>, 
-        info:   <button class="btn" data-toggle="modal" data-target="#Daily">
-        More Info
-      </button>,
+        date:  <p class ="links">Completed on 30 January 2022</p>, 
+        github: <li class ="links"> <a href="https://github.com/HummaNosh/Daily-work-planner#readme" target="_blank"> GITHUB REPOSITORY</a></li>,
+        link: <li class ="links"><a href="https://hummanosh.github.io/Daily-work-planner/" target="_blank"> DEPLOYED APPLICATION</a></li>,
         },
         {
           id: 10,
@@ -143,10 +131,9 @@ const Projects = () => {
         src={quiz}
         alt="An icon of a question mark"
       />,
-        date: <p>Completed on 19 January 2022</p>, 
-        info:  <button class="btn" data-toggle="modal" data-target="#Quiz">
-        More Info
-      </button>,
+        date: <p class ="links">Completed on 19 January 2022</p>, 
+        github: <li class ="links"> <a href="https://github.com/HummaNosh/Test-your-Javascript-Skills-#readme" target="_blank"> GITHUB REPOSITORY</a></li>,
+        link: <li class ="links"><a href="https://hummanosh.github.io/Test-your-Javascript-Skills-/" target="_blank"> DEPLOYED APPLICATION</a></li>,
         },
         {
           id: 11,
@@ -155,10 +142,9 @@ const Projects = () => {
         src={secure}
         alt="An icon of a security card"
       />,
-        date:  <p>Completed on 4 January 2022</p>, 
-        info:  <button class="btn" data-toggle="modal" data-target="#pwrd">
-        More Info
-      </button>,
+        date:  <p class ="links">Completed on 4 January 2022</p>, 
+        github: <li class ="links"> <a href="https://github.com/HummaNosh/A-Secure-Password-Generator#readme" target="_blank"> GITHUB REPOSITORY</a></li>,
+        link: <li class ="links"><a href="https://hummanosh.github.io/A-Secure-Password-Generator/" target="_blank"> DEPLOYED APPLICATION</a></li>,
         },
         {
           id: 12,
@@ -167,10 +153,9 @@ const Projects = () => {
         src={pen}
         alt="An icon of a pen - re writing code"
       />,
-        date:  <p>Completed on 9 December 2021</p>, 
-        info:   <button class="btn" data-toggle="modal" data-target="#code">
-        More Info
-      </button>,
+        date:  <p class ="links">Completed on 9 December 2021</p>, 
+        github: <li class ="links"> <a href="https://github.com/HummaNosh/MarketingAgency_Horiseon1#readme" target="_blank"> GITHUB REPOSITORY</a></li>,
+        link: <li class ="links"><a href="https://hummanosh.github.io/MarketingAgency_Horiseon1/" target="_blank"> DEPLOYED APPLICATION</a></li>,
         },
         {
           id: 13,
@@ -181,10 +166,9 @@ const Projects = () => {
         src={profile}
         alt="An icon of a person"
       />,
-        date: <p>Completed on 26 December 2021</p>, 
-        info:  <button class="btn" data-toggle="modal" data-target="#port">
-        More Info
-      </button>,
+        date: <p class ="links">Completed on 26 December 2021</p>, 
+        github: <li class ="links"> <a href="https://github.com/HummaNosh/All-about-ME-My-Portfolio2.0#readme" target="_blank"> GITHUB REPOSITORY</a></li>,
+        link: <li class ="links"><a href="https://hummanosh.github.io/All-about-ME-My-Portfolio2.0/" target="_blank"> DEPLOYED APPLICATION</a></li>,
         },
         {
           id: 14,
@@ -195,10 +179,9 @@ const Projects = () => {
         src={cobra}
         alt="An icon of a film"
       />,
-        date: <p>Completed on 17 December 2021</p>, 
-        info:    <button class="btn" data-toggle="modal" data-target="#cobra">
-        More Info
-      </button>,
+        date: <p class ="links">Completed on 17 December 2021</p>, 
+        github: <li class ="links"> <a href="https://github.com/HummaNosh/CobraKaiFanpage#readme" target="_blank"> GITHUB REPOSITORY</a></li>,
+        link: <li class ="links"><a href="https://github.com/HummaNosh/CobraKaiFanpage" target="_blank"> DEPLOYED APPLICATION</a></li>,
         },
         {
           id: 15,
@@ -209,10 +192,9 @@ const Projects = () => {
         src={door}
         alt="An icon of the first door into code"
       />,
-        date: <p>Completed on 8 November 2021</p>, 
-        info:  <button class="btn" data-toggle="modal" data-target="#prework">
-        More Info
-      </button>,
+        date: <p class ="links">Completed on 8 November 2021</p>, 
+        github: <li class ="links"> <a href="https://github.com/HummaNosh/prework-about-me1#readme" target="_blank"> GITHUB REPOSITORY</a></li>,
+        link: <li class ="links"><a href="https://github.com/HummaNosh/prework-about-me1" target="_blank"> DEPLOYED APPLICATION</a></li>,
         },
         ]
 

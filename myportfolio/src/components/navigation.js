@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Modals from './navmodals';
+
 import '../css/Nav.css'
 
 function Navbar() {
-<Modals/>
+
     return (
 
   <div id="mainPage" data-spy="scroll" data-target=".navbar" data-offset="50">

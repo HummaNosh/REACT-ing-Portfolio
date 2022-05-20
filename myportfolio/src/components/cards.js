@@ -1,6 +1,5 @@
 
  import React from "react";
-import Modal from "./modal";
 import box from "../css/box.css";
 
 const Box = (props) => {
@@ -18,7 +17,8 @@ const Box = (props) => {
           {boxes.name}
           {boxes.image}
           {boxes.date}
-          {boxes.info}
+          {boxes.github}
+          {boxes.link}
         </li>
         </div> 
         </div>

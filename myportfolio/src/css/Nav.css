@@ -61,9 +61,7 @@ h4 {
     );
 }
 
-.navbar-toggle {
-  float: left !important;
-}
+
 .navbar li a {
   color: white;
 }
