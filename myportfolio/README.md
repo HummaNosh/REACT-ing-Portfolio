@@ -36,4 +36,4 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Deployed Link
 
-
+https://hummanosh.github.io/REACT-ing-Portfolio/
