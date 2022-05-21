@@ -89,9 +89,20 @@
     justify-content: center;
     text-align: center;
   }
+
+  
   @media (max-width: 1400px) {
 
   .pic {
     display: none;
+  }
+  .mine .info {
+    margin: 0;
+    padding-left: 2rem;
+    width: 80%;
+  }
+
+  .info .text {
+    width: 80%;
   }
 }

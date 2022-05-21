@@ -1,6 +1,6 @@
 
  import React from "react";
-import box from "../css/box.css";
+import box from "../css/card.css";
 
 const Box = (props) => {
     return(

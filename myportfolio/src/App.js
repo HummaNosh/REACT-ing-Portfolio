@@ -8,6 +8,7 @@ import Footer from './components/footer';
 import Projects from './components/projects';
 import AboutME from "./components/aboutme"
 import Contact from "./components/contact"
+import Form from "./components/form";
 
 function Main() {
     return(
@@ -17,6 +18,7 @@ function Main() {
 <AboutME/>,
 <Projects/>,
 <Contact/>,
+<Form/>
     <Footer/>
 
   </div>

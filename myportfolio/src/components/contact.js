@@ -1,5 +1,5 @@
 import React from "react";
-import css from '../css/form.css'
+import css from '../css/contact.css'
 import reacticons from "react-icons"
 import { FaBeer } from 'react-icons/fa'
 import { AiOutlineGithub } from "react-icons/ai";
