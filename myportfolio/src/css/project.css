@@ -65,10 +65,7 @@ body {
   .card-body :hover {
     -ms-zoom-animation: initial;
   }
-  
-  article {
-    background-color: pink;
-  }
+
   
   .card {
     width: 25rem;

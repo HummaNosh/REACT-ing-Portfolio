@@ -11,7 +11,7 @@ const Box = (props) => {
 
  <ul class >
      {props.projectData.map(boxes => (
-        <div class="col-sm-4">
+        <div class="col-sm-4 back">
         <div class="thumbnail">
         <li className="list-group-item thumbnail" key={boxes.id}>
           {boxes.name}
