@@ -12,12 +12,11 @@ import Contact from "./components/contact"
 function Main() {
     return(
 <div> 
-  <Navbar/>
-<Header/>
-<AboutME/>
-<Projects/>
-<Contact/>
-
+  <Navbar/>,
+<Header/>,
+<AboutME/>,
+<Projects/>,
+<Contact/>,
     <Footer/>
 
   </div>

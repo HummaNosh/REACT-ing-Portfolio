@@ -10,7 +10,7 @@ import {AiFillLinkedin} from "react-icons/ai"
 class Question extends React.Component {
     render() {
         return <div>
- <ul class = "dum">
+ <ul class = "dum"  id ="contact">
        <li class= "list"><a href = "mailto:hummanoshine@yahoo.co.uk"><AiTwotoneMail/></a></li>
          <li class= "list">  <a
             href="..\css\assets\Developer CV 22.pdf"
@@ -23,19 +23,3 @@ class Question extends React.Component {
     }
 }
 export default Question
-
-// function form() {
-//     return(
-//         <div>
-//             <ul class = "dum">
-//             <li class= "list"> Email</li>
-//             <li class= "list">  CV</li>
-//             <li class= "list">{FaBeer}</li>
-//             <li class= "list">Linkedin</li>
-//             <li class= "list"> Contact ME</li>
-//             </ul>
-//         </div>
-//     )
-// }
-
-// export default form;
