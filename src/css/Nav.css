@@ -116,10 +116,10 @@ color:white;
 
 .bg-1 #Iam {
   font-family: "Courier New", Courier, monospace;
-  color: #1413138c;
+  color: black;
   font-size: 3rem;
   font-style: italic;
-  text-shadow: 2px 2px 5px goldenrod;
+  text-shadow: 5px 5px 10px goldenrod;
   padding: 20px;
 }
 
@@ -346,9 +346,7 @@ footer a:hover {
     height: fit-content;
   }
 
-  #AboutMe {
-    width: 70rem;
-  }
+
 }
 @viewport {
   width: device-width;

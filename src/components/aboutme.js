@@ -1,7 +1,10 @@
 import React from "react";
 import aboutcss from '../css/about.css'
 import me from "../css/assets/humma.png"
-function AboutME() {
+
+const AboutME = () => {
+
+
     return(
 
         <div id="AboutMe" class="whole aboutthumbnail">
@@ -9,7 +12,7 @@ function AboutME() {
         <div class="thumbnail">
             <h1 class ="text-center Proj" > About Me</h1> 
             </div>
-          <article  class="info">
+          <div  class="info">
      
             <li class="text about" >I am an Junior Software developer with a proven track record in Sales and Marketing. 
              I have recently earned a coding certificate in full stack development from the University of Birmingham. I have newly developed skills in HTML, JavaScript, CSS, React.js, responsive web design and a lot more!!I am interested in managing software operations, problem-solving, designing user-face products and coding. 
@@ -18,13 +21,15 @@ function AboutME() {
             <li class="text about">I love working in a collaborative environment, I have worked on a team of 5-6 members whom each work together in order to create quality projects. I am very excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.</li> 
   
         <img class= "pic" src={me} alt="An avatar of Humma"/>
-        </article>
-      </section>
-      </div>
+        </div>
+        </section>
 
-      
+      </div>
+ 
+    
     )
 }
 
+  
 export default AboutME;
 
