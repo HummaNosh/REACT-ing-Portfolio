@@ -1,6 +1,6 @@
 ## React Portfolio
 
-The purpose of this project is to create a React portfolio using React components and other features.
+The purpose of this project is to create a React portfolio using React components and other features. This is a portfolio of me and my work, which includes all of the projects I have worked on so far, a bit about me, contact information and a contact me form. 
 
 ## User Story
 
@@ -35,6 +35,11 @@ WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+
+## Screenshot of application
+
+![image](https://user-images.githubusercontent.com/93604239/171854025-aa659fc3-9e5f-4924-b92b-21c7e3d22bd1.png)
+
 
 ## Deployed Link
 
