@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/REACT-ing-Portfolio/static/css/main.fa9d97fc.css",
+    "main.js": "/REACT-ing-Portfolio/static/js/main.3a1dbeeb.js",
+    "static/js/787.1f11dfe9.chunk.js": "/REACT-ing-Portfolio/static/js/787.1f11dfe9.chunk.js",
+    "static/media/CV.pdf": "/REACT-ing-Portfolio/static/media/CV.364856d5415e043fc41e.pdf",
+    "static/media/goldlogo.png": "/REACT-ing-Portfolio/static/media/goldlogo.151342c053dd32d1fc59.png",
+    "static/media/woman-using-laptop-1100x733.jpg": "/REACT-ing-Portfolio/static/media/woman-using-laptop-1100x733.15695ddb563a5c5050f9.jpg",
+    "static/media/humma.png": "/REACT-ing-Portfolio/static/media/humma.0b4a2a8fc49f76eaba42.png",
+    "index.html": "/REACT-ing-Portfolio/index.html",
+    "static/media/teamgenpeople.svg": "/REACT-ing-Portfolio/static/media/teamgenpeople.d75289daeb041c463c10e7ed8fb35f6b.svg",
+    "static/media/achabasket.svg": "/REACT-ing-Portfolio/static/media/achabasket.6828a7e1ac9fbafbef6699e2cc2fc37a.svg",
+    "static/media/card-checklist.svg": "/REACT-ing-Portfolio/static/media/card-checklist.8cf9b949372f01573663151056fda808.svg",
+    "static/media/quizquestion-circle-fill.svg": "/REACT-ing-Portfolio/static/media/quizquestion-circle-fill.99f371286460b01b3b651557167de308.svg",
+    "static/media/weathercloud-drizzle-fill.svg": "/REACT-ing-Portfolio/static/media/weathercloud-drizzle-fill.6e5fcdb595fc52b7b9e86f278048cad6.svg",
+    "static/media/blogpencil-square.svg": "/REACT-ing-Portfolio/static/media/blogpencil-square.75d078b547e1c0688445b9e47edfd1b9.svg",
+    "static/media/notetakerclipboard2-minus-fill.svg": "/REACT-ing-Portfolio/static/media/notetakerclipboard2-minus-fill.8fb9f54a68fc418a6885ee29b8e339af.svg",
+    "static/media/ecomcart4.svg": "/REACT-ing-Portfolio/static/media/ecomcart4.957ad81acf2afa91bffa61c1545906bc.svg",
+    "static/media/credit-card-2-front-fill.svg": "/REACT-ing-Portfolio/static/media/credit-card-2-front-fill.692cb14135bf436b3bf8e2d29361198f.svg",
+    "static/media/pen-fill.svg": "/REACT-ing-Portfolio/static/media/pen-fill.9a8950f18c6cd80dbf7f2bfa4f4a269b.svg",
+    "static/media/trackpeople-fill.svg": "/REACT-ing-Portfolio/static/media/trackpeople-fill.a284df933054cdcd8fbbe49a919a9d68.svg",
+    "static/media/profilefile-earmark-person-fill.svg": "/REACT-ing-Portfolio/static/media/profilefile-earmark-person-fill.fe324fae4114a4f3b69741e2e3b68f2b.svg",
+    "static/media/cobrafilm.svg": "/REACT-ing-Portfolio/static/media/cobrafilm.966ebc3980b01a7a19f1c937266832e9.svg",
+    "static/media/preworkdoor-open-fill.svg": "/REACT-ing-Portfolio/static/media/preworkdoor-open-fill.794bcb8b1b8f9fb08254635b1fa914a3.svg",
+    "static/media/suit-heart-fill.svg": "/REACT-ing-Portfolio/static/media/suit-heart-fill.65dbf0248ce60eeeb6933e8f79fc932c.svg",
+    "main.fa9d97fc.css.map": "/REACT-ing-Portfolio/static/css/main.fa9d97fc.css.map",
+    "main.3a1dbeeb.js.map": "/REACT-ing-Portfolio/static/js/main.3a1dbeeb.js.map",
+    "787.1f11dfe9.chunk.js.map": "/REACT-ing-Portfolio/static/js/787.1f11dfe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa9d97fc.css",
+    "static/js/main.3a1dbeeb.js"
+  ]
+}
