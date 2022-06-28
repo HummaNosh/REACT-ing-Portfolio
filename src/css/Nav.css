@@ -32,6 +32,7 @@ h4 {
 .nav-tabs li a {
   color: white;
   font-weight: bold;
+  align-items: flex-end;
 }
 
 .navbar {
@@ -59,11 +60,13 @@ h4 {
       #5d4a1f 62.5%,
       #5d4a1f 100%
     );
+
 }
 
 
 .navbar li a {
   color: white;
+  padding: 20px;
 }
 .navbar .navbar-brand {
   color: white;
@@ -73,7 +76,7 @@ h4 {
 }
 .navbar-nav li.active a {
   color: #fff;
-  background-color: white;
+
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
@@ -333,6 +336,7 @@ footer a:hover {
   .navbar-collapse {
     color: white;
     width: 20rem;
+   
   }
 
   h3 {

@@ -7,7 +7,7 @@ const Box = (props) => {
 
  <div id="projects" class="bg-2 thumbnail">
  <div class="thumbnail">
-     <h1 class ="text-center Proj">Projects</h1>
+     <h1 class ="text-center Proj title">Projects</h1>
 
  <ul class >
      {props.projectData.map(boxes => (
